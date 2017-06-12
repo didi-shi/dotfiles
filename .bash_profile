@@ -1,7 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
-for file in ~/.{alias,env,extra,function,git-prompt,path,prompt} do:
+for file in ~/.{alias,env,extra,function,git-prompt.sh,path,prompt}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
@@ -35,3 +35,5 @@ if [ -f "${SSH_ENV}" ]; then
 else
   start_agent;
 fi
+
+complete -C aws_completer aws

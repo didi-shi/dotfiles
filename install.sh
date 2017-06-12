@@ -1,4 +1,5 @@
-function install() {
+#!/bin/bash
+function install_dotfiles() {
 	rsync --exclude ".git/" \
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
@@ -8,3 +9,6 @@ function install() {
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
+
+install_dotfiles;
+unset install_dotfiles;
