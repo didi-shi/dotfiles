@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/All Hallow's Eve (SL).tmTheme",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Python Pep8 Lint",
+		"Vintage"
+	]
+}

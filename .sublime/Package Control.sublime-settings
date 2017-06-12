@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Python Pep8 Lint"
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Babel",
+		"CTags",
+		"JSONLint",
+		"JSX",
+		"Package Control",
+		"PackageDev",
+		"PlainTasks",
+		"Python Breakpoints",
+		"Python Pep8 Lint",
+		"ReactJS",
+		"rsub",
+		"StandardFormat",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-standard",
+		"SublimeLinter-flake8",
+		"SublimeLinter-json",
+		"SublimeLinter-jsxhint",
+		"SublimeLinter-pep8"
+	]
+}
