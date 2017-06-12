@@ -19,6 +19,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias w="cd ~/workSpace"
 alias j="jobs"
+alias sb="source ~/.bash_profile"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

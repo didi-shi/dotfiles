@@ -1,0 +1,2 @@
+ln -s $HOME/workSpace/dotfiles/.sublime/Installed\ Packages $HOME/Library/Application\ Support/Sublime\ Text\ 3/
+ln -s $HOME/workSpace/dotfiles/.sublime/Packages $HOME/Library/Application\ Support/Sublime\ Text\ 3/

@@ -120,6 +120,8 @@ brew cask install spotify
 brew cask install sublime-text
 brew cask install quip
 
+# other configurations
+# http://www.andylampert.com/web-dev-tips/move-between-words-shortcut-in-iterm-2
 
 
 # Remove outdated versions from the cellar.
