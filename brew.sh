@@ -3,12 +3,19 @@
 #install homebrew first
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# Install tools using Homebrew.
+# Install git
 brew install git
+brew install git bash-completion
+# to enable git bash auto completion
+printf '\n[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion\n' >> ~/.bash_profile
+
+# node
 brew install node
 # nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+# awscli
 brew install awscli
+printf '\ncomplete -C aws_completer aws\n'
 
 
 # Install GNU core utilities (those that come with macOS are outdated).
