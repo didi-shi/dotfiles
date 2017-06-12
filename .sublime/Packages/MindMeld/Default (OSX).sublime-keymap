@@ -1,0 +1,14 @@
+[
+    { 
+        "keys": ["super+shift+c"], "command": "annotate_non_numeric"
+    },
+    { 
+        "keys": ["super+shift+o"], "command": "annotate_numeric"
+    },
+    { 
+        "keys": ["super+shift+i"], "command": "bootstrap"
+    },
+    { 
+        "keys": ["super+shift+m"], "command": "unannotate"
+    }
+]
