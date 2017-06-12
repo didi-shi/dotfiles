@@ -36,3 +36,8 @@ else
   start_agent;
 fi
 
+# enable git bash auto complete
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# awscli auto complete
+complete -C aws_completer aws
