@@ -16,7 +16,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 # awscli
 brew install awscli
 printf '\ncomplete -C aws_completer aws\n'
-
+# redis
+brew install redis
+# pyenv
+brew install pyenv
+brew install pyenv-virtualenv
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -119,6 +123,7 @@ brew cask install google-chrome
 brew cask install spotify
 brew cask install sublime-text
 brew cask install quip
+brew cask install java
 
 # other configurations
 # http://www.andylampert.com/web-dev-tips/move-between-words-shortcut-in-iterm-2
